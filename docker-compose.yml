@@ -2,6 +2,7 @@ version: "3.9"
 services:
   backend:
     build: ./backend
+    image: ankitaubale1323/finance-backend:latest
     container_name: finance-backend
     ports:
       - "5000:5000"
@@ -11,6 +12,7 @@ services:
 
   frontend:
     build: ./frontend
+    image: ankitaubale1323/finance-frontend:latest
     container_name: finance-frontend
     ports:
       - "3000:80"
