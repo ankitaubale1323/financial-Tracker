@@ -12,7 +12,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/ankitaubale1323/financial-Tracker.git',
-                    credentialsId: 'git-cred'
+                    credentialsId: 'git-credentials'
             }
         }
 
